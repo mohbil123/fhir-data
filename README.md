@@ -14,10 +14,11 @@ This project implements a scalable pipeline to process FHIR (Fast Healthcare Int
 ├── src                    
 │   ├── db_config.py           # Database configuration and session handling
 │   ├── fhir_processor.py      # Logic to process FHIR data and insert it into MySQL
-│   ├── main.py                # Entry point to run the application
+│   └── main.py                # Entry point to run the application
 ├── data                       # Directory to hold FHIR JSON files
-│   └── fhir_sample.json       # Example FHIR data file
+│   └── fhir_sample.json       # Example FHIR data files
 ├── tests                      # Directory for test cases
+|   ├── test_db_config.py      # DB config test cases
 │   └── test_fhir_processor.py # Pytest test cases
 ├── Dockerfile                 # Docker setup file for containerising the app
 ├── docker-compose.yml         # Docker Compose configuration for running MySQL and the app
@@ -38,7 +39,7 @@ Make sure you have the following installed:
 ### 2. Clone the Repository
 
 ```bash
-https://github.com/mohbil123/fhir-data.git
+git clone https://github.com/mohbil123/fhir-data.git
 ```
 ### 3. Create a Virtual Environment and Install Dependencies
 
