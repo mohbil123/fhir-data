@@ -13,7 +13,7 @@ This project implements a scalable pipeline to process FHIR (Fast Healthcare Int
 ```
 ├── src                    
 │   ├── db_config.py           # Database configuration and session handling
-│   └──  fhir_processor.py      # Logic to process FHIR data and insert it into MySQL
+│   └── fhir_processor.py      # Logic to process FHIR data and insert it into MySQL
 ├── data                       # Directory to hold FHIR JSON files
 │   └── fhir_sample.json       # Example FHIR data files
 ├── tests                      # Directory for test cases
