@@ -1,0 +1,8 @@
+pandas
+pytest
+numpy
+mysql-connector-python
+fhir.resources
+pymysql
+sqlalchemy
+cryptography

@@ -1,0 +1,14 @@
+# Virtual environment
+.venv/
+
+# Docker
+*.env
+
+# IDE settings
+.idea/
+__pycache__/
+
+# Build and distribution directories
+build/
+dist/
+*.egg-info/
